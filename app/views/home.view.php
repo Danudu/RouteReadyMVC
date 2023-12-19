@@ -95,7 +95,7 @@
                 </section>
             </div>
             <div class="footer">
-                <p>&copy; 2023 Vehicle</p>
+                <p>&copy; 2023 Vehicle Reservation System.</p>
                 <h4>Follow us</h4>
                 <div class="footer-social">
                     <div class="footer-links">
