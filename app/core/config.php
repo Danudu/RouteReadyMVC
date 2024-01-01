@@ -6,7 +6,7 @@ if($_SERVER['SERVER_NAME'] == 'localhost')
     define('ROOT', 'http://localhost/mvc/public');
 
     // db config
-    define('DBNAME','routeready');
+    define('DBNAME','routeready_db');
     define('DBHOST','localhost');
     define('DBUSER','root');
     define('DBPASSWORD','');
@@ -17,8 +17,12 @@ else
     define('ROOT', 'https://www.yourdomain.com');
 
     // db config
-    define('DBNAME','routeready');
+    define('DBNAME','routeready_db');
     define('DBHOST','localhost');
     define('DBUSER','root');
     define('DBPASSWORD','');
 }
+
+
+define('APPNAME','RouteReady');
+define('APPVERSION','1.0.0');
